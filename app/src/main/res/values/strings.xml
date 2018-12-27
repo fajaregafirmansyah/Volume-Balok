@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Volume Balok</string>
+    <string name="icon_splashscreen">Icon pada splashscreen</string>
+    <string name="selamatdatang">Assalamualaikum</string>
+    <string name="deksripsi_hitungvolume">Silahkan hitung volume balok</string>
+    <string name="hint_panjang">Panjang</string>
+    <string name="hint_lebar">Lebar</string>
+    <string name="hint_tinggi">Tinggi</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasil</string>
+</resources>
