@@ -20,6 +20,7 @@ Aplikasi Volume Balok adalah aplikasi yang memudahkan kita dalam menghitung sebu
 ---
 * Glide
 * AppCompat (Toolbar, CardView, etc)
+* Databinding
 
 ---
 > Semoga bermanfaat....
