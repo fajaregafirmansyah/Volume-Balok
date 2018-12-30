@@ -7,6 +7,7 @@ Aplikasi Volume Balok adalah aplikasi yang memudahkan kita dalam menghitung sebu
 - [x] Menggunakan konsep UX & UI
 - [x] Menghitung volume balok sesuai dengan rumus
 - [x] Membuat halaman splashcreen
+- [x] Ketika posisi layar landscape hasil volume tidak hilang
 
 ---
 **Screenshoot Aplikasi :**
