@@ -17,15 +17,18 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_splash_screen);
-
+        //fungsi untuk membuat layar menjadi fullscreen tidak terlihat appbarnya
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        Glide.with(this).load(R.mipmap.ic_launcher_round).into(binding.iconTengah);
+        //menambahkan gambar ke dalam variabel iconTengah
+        Glide.with(this).load(R.mipmap.ic_volumebalok_circle).into(binding.iconTengah);
 
+        //diatur waktu berjalannya di halaman splashscreen
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
+                //perpindahan halaman
                 startActivity(new Intent(getApplicationContext(), HitungVolumeActivity.class));
                 finish();
             }
